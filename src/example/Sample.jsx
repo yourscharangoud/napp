@@ -1,8 +1,18 @@
 import React from 'react'
 
+const Mango=()=>{
+    return(
+        <h2>Mangoes are Sweet</h2>
+    )
+}
+
 function Sample() {
   return (
-    <div>Sample</div>
+    <div>
+        Sample
+        <Mango/>
+    </div>
+    
   )
 }
 
