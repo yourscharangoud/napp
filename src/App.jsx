@@ -1,8 +1,12 @@
 import React from 'react'
 
+let name = "Charan"
+
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <h1>My name is {name}</h1>
+    </div>
   )
 }
 
